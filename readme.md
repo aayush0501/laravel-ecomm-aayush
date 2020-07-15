@@ -1,7 +1,7 @@
 Instructions/ Sequence of operations to run the projects - 
 
 1) Clone the Repository
-2) Copy the contents of env.example to .env file.
+2) Copy the contents of env.example to .env file in accordance with your database setup.
 3) Add the Following Installation packages using npm
 - ckeditor
 - feather-icons
