@@ -71,7 +71,7 @@ class ProductController extends Controller
         $cart = new Cart($oldCart);
         $cart->addProduct($product, $qty);
         Session::put('cart', $cart);
-        return back()->with('message', "Product $product->title has been successfully added to Cart");
+        return redirect('/cart');
     }
 
     public function cart(){

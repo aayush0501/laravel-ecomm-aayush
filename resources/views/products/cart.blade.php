@@ -51,6 +51,7 @@
 							@csrf
 
 							<input type="submit" name="remove" value="x Remove" class="btn btn-outline-danger"/>
+							<a type="submit" name="Buy" value="x Buy" href="/checkout" class="btn btn-outline-success">x Buy</a>
 							</form>
 						</td>
 					</tr>

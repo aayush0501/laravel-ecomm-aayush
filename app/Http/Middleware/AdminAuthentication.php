@@ -14,8 +14,8 @@ class AdminAuthentication
      * @return mixed
      */
     public function handle($request, Closure $next)
-    {   if(Auth::user()->role->name == 'customer'){
-        return redirect('/home')->with('meassage', "You are not allowed to access.");
+    {   if(Auth::user()->role->name == 'Customer'){
+        return redirect('/products')->with('meassage', "You are not allowed to access.");
     }
         return $next($request);
     }
