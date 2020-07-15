@@ -1,4 +1,4 @@
-Instructions/ Sequence of operations to run the projects - 
+Instructions/ Sequence of operations to run this project - 
 
 1) Clone the Repository
 2) Copy the contents of env.example to .env file in accordance with your database setup.
